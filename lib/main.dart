@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
       getPages: AppRoutes.routes,
       initialRoute: AppRoutes.initialRoute,
       theme: ThemeData(
-          scaffoldBackgroundColor: kPrimaryDarkColor,
+          scaffoldBackgroundColor: kPrimaryColor,
           primaryColor: kPrimaryColor,
           textTheme: Theme.of(context).textTheme.apply(
                 bodyColor: kWhiteColor,

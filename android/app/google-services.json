@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "416184137765",
+    "project_id": "quran-app-c3142",
+    "storage_bucket": "quran-app-c3142.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416184137765:android:61f35ecd572a082f04a7cc",
+        "android_client_info": {
+          "package_name": "com.quranapp.elashamawydev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416184137765-fm7kh5ofp3c8f5fc0u35ur2cgb39kpbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgInGgXeVwNkvpvxGEMzqtPEI9ZgES2Yc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416184137765-fm7kh5ofp3c8f5fc0u35ur2cgb39kpbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
