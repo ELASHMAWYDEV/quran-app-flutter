@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:get/get.dart';
 import 'package:quran_app/utils/constants.dart';
 
 class SelectionScreen extends StatefulWidget {
@@ -95,7 +96,9 @@ class _SelectionScreenState extends State<SelectionScreen> {
             ],
           ),
           TextButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.toNamed("/both");
+              },
               style: ButtonStyle(
                 padding: MaterialStateProperty.all(EdgeInsets.zero),
                 backgroundColor: MaterialStateProperty.all(kGreenColor),

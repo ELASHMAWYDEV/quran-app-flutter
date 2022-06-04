@@ -9,11 +9,11 @@ class SplashController extends GetxController {
     Get.find<StorageService>()
         .triggerOnce(StorageKeys.hasSeenSplashScreens)
         .then((value) =>
-            Future.delayed(const Duration(milliseconds: 5000), () async {
+            Future.delayed(const Duration(milliseconds: 6000), () async {
               Get.offAndToNamed("/selection");
             }))
         .catchError(
-            (e) => Future.delayed(const Duration(milliseconds: 1500), () async {
+            (e) => Future.delayed(const Duration(milliseconds: 2500), () async {
                   Get.offAndToNamed("/selection");
                 }));
 
